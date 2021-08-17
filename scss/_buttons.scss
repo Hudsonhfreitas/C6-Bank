@@ -1,0 +1,21 @@
+.btn {
+    padding: 1.1rem 5rem;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FFFF;
+    
+    &.primary {
+        background-color: $yellow-brand;
+        color: $black-brand;
+    }
+
+    &.secondary {
+        padding: 1.5rem 4rem;
+        border: 1px solid #FFF;
+    }  
+}

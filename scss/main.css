@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  -webkit-box-sizing: none;
+          box-sizing: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 4rem;
+  letter-spacing: -0.03rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #616161;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+h1, h2, h3 {
+  line-height: 130%;
+}
+
+h2, h4 {
+  color: #242424;
+}
+
+.btn {
+  padding: 1.1rem 5rem;
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #FFFF;
+}
+
+.btn.primary {
+  background-color: #FFCE2E;
+  color: #242424;
+}
+
+.btn.secondary {
+  padding: 1.5rem 4rem;
+  border: 1px solid #FFF;
+}
+
+header {
+  background-color: blue;
+  height: 7.2rem;
+}
+/*# sourceMappingURL=main.css.map */

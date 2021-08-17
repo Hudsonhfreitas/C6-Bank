@@ -1,0 +1,31 @@
+h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 4rem;
+    letter-spacing: -0.03rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: $gray-brand;
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+h1,h2,h3 {
+    line-height: 130%;
+}
+
+h2,h4 {
+    color: $black-brand;
+}
