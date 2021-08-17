@@ -17,5 +17,9 @@
     &.secondary {
         padding: 1.5rem 4rem;
         border: 1px solid #FFF;
-    }  
+    } 
+
+    @include responsive(480px) {
+        padding: 1.1rem 1.4rem;
+    }
 }

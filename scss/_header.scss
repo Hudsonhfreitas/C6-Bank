@@ -1,5 +1,60 @@
 header {
-    background-color: blue;
-    height: 7.2rem;
-   
+    width: 100%;
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    .container {
+        height: 100%;
+        @include flex(row, center, space-between);
+        nav {
+            @include flex(row, center, space-between);
+            ul {
+                display: flex;
+                align-items: center;
+                li {
+                   &:not(:last-child) {
+                       margin-right: 4.65rem;
+                   }
+                    a {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                        font-weight: 500;
+                        color: rgba(255, 255, 255,0.7);
+                        white-space: nowrap;
+                        img {
+                            width: 7.5px;
+                            height: 6px;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(700px) {
+        .container {
+            nav {
+                ul {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @include responsive(480px) {
+        top: 0;
+        height: 8.8rem;
+        .container {
+            a {
+                .logo {
+                    width: 12rem;
+                    height: 8.8rem;
+                }
+            }
+        }
+    }
 }
