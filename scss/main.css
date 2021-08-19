@@ -736,6 +736,9 @@ footer .container .card-business .images img.c6-logo {
     width: 17.1rem;
     height: 4.8rem;
   }
+  footer .container .top .switcher span.active {
+    left: 24.5rem;
+  }
   footer .container .top .switcher button {
     width: 17.1rem;
     height: 4.8rem;
