@@ -8,15 +8,23 @@
     text-transform: uppercase;
     font-weight: 500;
     color: #FFFF;
+    transition: 0.3s;
     
     &.primary {
         background-color: $yellow-brand;
         color: $black-brand;
+        &:hover {
+            background-color: rgb(241, 175, 31);
+        }
     }
 
     &.secondary {
         padding: 1.5rem 4rem;
         border: 1px solid #FFF;
+        &:hover {
+            background-color: #FFFF;
+            color: $black-brand;
+        }
     } 
 
     @include responsive(480px) {
