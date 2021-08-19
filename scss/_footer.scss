@@ -26,12 +26,13 @@ footer {
                     border-radius: 120px;
                     top: 0.8rem;
                     left: 1.1rem;
+                    right: unset;
                     width: 26.9rem;
                     height: 5.6rem;
                     color: #FFF;
-                    transition: left .8s;
                     &.active{
-                        left: 31.1rem;
+                        right: 1.1rem;
+                        left: unset;
                     }
                 }
                 button {
@@ -203,16 +204,16 @@ footer {
                     span {
                         top: 0.8rem;
                         left: 0.8rem;
-                        width: 17.1rem;
+                        width: 16.1rem;
                         height: 4.8rem;
                         &.active{
-                            left: 24.5rem;
+                            right: 0.8rem;
                         }
                     }
                     button {
                         width: 17.1rem;
                         height: 4.8rem;
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                         line-height: 1.7rem;
                         &.first{
                             margin-left: .8rem;
