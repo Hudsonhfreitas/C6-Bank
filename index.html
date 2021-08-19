@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.css">
     <title>C6 Bank</title>
@@ -14,7 +15,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container" data-aos="slide-down">
             <a href="#" class="logo">
                 <img src="./img/logo.svg" alt="">
             </a>
@@ -30,11 +31,11 @@
 
     <section class="s-hero">
         <div class="container">
-            <div class="text-area">
+            <div data-aos="slide-right" class="text-area">
                 <p><span>Novo</span> Conheça nosso Programa de Pontos Átomos</p>
                 <h1>Um banco transparente, completo e com sua cara</h1>
-                <h4>Conta digital e cartão de crédito gratuitos. Saques e transferências sem tarifa.</h4>
-                <button class="btn secondary">Nossos produtos</button>
+                <h4 >Conta digital e cartão de crédito gratuitos. Saques e transferências sem tarifa.</h4>
+                <button  class="btn secondary">Nossos produtos</button>
             </div>
         </div>
     </section>
@@ -42,12 +43,12 @@
     <section class="s-card-c6">
         <div class="container">
             <div class="main-text">
-                <div class="top">
+                <div data-aos="slide-right" class="top">
                     <h2>Sem tarifas:</h2>
                     <h3>economize seu dinheiro</h3>
                 </div>
                 <div class="items_wrapper">
-                    <div class="item">
+                    <div data-aos="slide-up" class="item">
                         <div class="icon">
                             <img src="./img/saques.svg" alt="">
                         </div>
@@ -56,7 +57,7 @@
                             <p>São mais de 23 mil caixas em 680 municípios do Brasil. Saques ilimitados sem cobrança de tarifa.</p>
                         </div>
                     </div>
-                    <div class="item">
+                    <div data-aos="slide-up" class="item">
                         <div class="icon">
                             <img src="./img/transferencias.svg" alt="">
                         </div>
@@ -65,7 +66,7 @@
                             <p>Movimente seu dinheiro para qualquer conta em qualquer banco sem pagar nada por isso.</p>
                         </div>
                     </div>
-                    <div class="item">
+                    <div data-aos="slide-up"  class="item">
                         <div class="icon">
                             <img src="./img/deposito.svg" alt="">
                         </div>
@@ -74,7 +75,7 @@
                             <p>Emita boletos grátis e traga dinheiro para a sua conta C6 sem pagar tarifas.</p>
                         </div>
                     </div>
-                    <div class="item">
+                    <div data-aos="slide-up" class="item">
                         <div class="icon">
                             <img src="./img/atendimento.svg" alt="">
                         </div>
@@ -85,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cards">
+            <div data-aos="slide-left" class="cards">
                 <img src="./img/cards.svg" alt="">
             </div>
         </div>
@@ -94,11 +95,11 @@
     <footer>
         <div class="container">
             <div class="top">
-                <div class="text">
+                <div data-aos="slide-right" class="text">
                     <h2>Um banco completo</h2>
                     <h3>com produtos exclusivos</h3>
                 </div>
-                <div class="switcher">
+                <div  data-aos="slide-left" class="switcher">
                     <span id="switch"></span>
                     <button class="first active">Para você</button>
                     <button class="second">Para sua empresa</button>
@@ -121,6 +122,14 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init( {
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
 
 </html>
